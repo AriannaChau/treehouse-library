@@ -5,9 +5,9 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
+
 body {
   background: #edeff0;
-
 }
 
 h3 {
@@ -18,12 +18,16 @@ h3 {
 h2 {
   font-family: 'Nunito', sans-serif;
   font-size: 18px;
-  font-weight: bolder;
+  font-weight: bold;
   padding-left: 30px;
   color: #4b5658;
   margin: 0;
   padding-bottom: 20px;
 
+}
+
+.nav-library {
+  transform: translateY(50%);
 }
 
 .course {
@@ -36,6 +40,7 @@ h2 {
   padding-top: 40px;
   margin: 0;
   line-height: 20px;
+  letter-spacing: .02em;
 }
 
 .description {
@@ -55,58 +60,83 @@ h2 {
   float: left;
   margin: 25px;
   border-radius: 5px;
-
 }
+
 .nav {
   width: 100%;
-  height: 80px;
+  height: 75px;
   border-bottom: #c7c9c9 2px solid;
   box-shadow: 0 4px 6px -6px;
   position: relative;
-  overflow: auto;
 }
 
- .container {
-   overflow: auto;
-   margin-left: 60px;
- }
+.container {
+ overflow: auto;
+ margin-left: 60px;
+}
 
- .java {
-   border-top: 55px solid #2c9676;
-   position: relative;
-  }
+.java {
+ border-top: 55px solid #2c9676;
+ position: relative;
+}
 
- .python {
-   border-top: 55px solid #f092b0;
-   position: relative;
- }
+.python {
+ border-top: 55px solid #f092b0;
+ position: relative;
+}
 
- .wordpress {
-   border-top: 55px solid #838cc7;
-   position: relative;
- }
+.wordpress {
+ border-top: 55px solid #838cc7;
+ position: relative;
+}
 
- .javaFX {
-   border-top: 55px solid #2c9676;
-   position: relative;
- }
+.javaFX {
+ border-top: 55px solid #2c9676;
+ position: relative;
+}
+
+.divider {
+ display: inline-block;
+ width: 0;
+ height: 30px;
+ border-left: 1px solid #d4d9dd;
+ float: right;
+ transform: translateY(-70%);
+}
 
 #profile {
   border-radius: 60px;
   padding: 3px;
   border: #2c9676 3px solid;
-  top: -20px;
+  transform: translateY(-75%);
+  float: right;
+  margin: 5px;
 }
 
-#profile {
-  /*float: right;*/
-  left: 90%;
-  top: 10%;
-  position: absolute;
-}
 #score {
-  /*float: right;*/
-  position: absolute;
-  top: 10%;
-  left: 95%;
+  float: right;
+  transform: translateY(-140%);
+}
+
+#caret {
+  float: right;
+  font-size: 42px;
+  font-weight: lighter;
+  transform: translateY(-105%);
+  color: #d4d9dd;
+  padding-right: 20px;
+}
+
+#bell {
+  float: right;
+  transform: translateY(-70%);
+  padding-right: 15px;
+  padding-left: 10px;
+}
+
+#arrow {
+  float: right;
+  transform: translateY(-70%);
+  padding-right: 15px;
+  padding-left: 15px;
 }
