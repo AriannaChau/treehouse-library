@@ -63,21 +63,26 @@ h2 {
 }
 
 .nav {
-  width: 100%;
-  height: 75px;
+  width: 90%;
+  height: 75px;*/
   border-bottom: #c7c9c9 2px solid;
   box-shadow: 0 4px 6px -6px;
-  position: relative;
+  position: static;
+  padding-bottom: 10px;
+  margin: 0;
 }
 
 .container {
  overflow: auto;
- margin-left: 60px;
+ margin-left: 20px;
+ width: 1260px;
+
 }
 
 .java {
  border-top: 55px solid #2c9676;
  position: relative;
+ margin-top: 57px;
 }
 
 .python {
@@ -104,6 +109,108 @@ h2 {
  transform: translateY(-70%);
 }
 
+.java-btn {
+  width: 55px;
+  height: 35px;
+  font-size: 14px;
+  border-radius: 50px;
+  font-family: 'Nunito',sans-serif;
+  font-weight: bold;
+  color: #2c9676;
+  background-color: white;
+  border: #eaedef solid 2px;
+  position: absolute;
+  top: 205px;
+  left: 30px;
+}
+
+.inter-btn {
+  width: 120px;
+  height: 35px;
+  font-size: 14px;
+  border-radius: 50px;
+  font-family: 'Nunito',sans-serif;
+  font-weight: bold;
+  color: #7c8b8e;
+  background-color: white;
+  border: #eaedef solid 2px;
+  position: absolute;
+  top: 205px;
+  left: 93px;
+}
+
+.wordpress-btn {
+  width: 100px;
+  height: 35px;
+  font-size: 14px;
+  border-radius: 50px;
+  font-family: 'Nunito',sans-serif;
+  font-weight: bold;
+  color: #838cc7;
+  background-color: white;
+  border: #eaedef solid 2px;
+  position: absolute;
+  top: 205px;
+  left: 30px;
+}
+
+.interword-btn {
+  width: 110px;
+  height: 35px;
+  font-size: 14px;
+  border-radius: 50px;
+  font-family: 'Nunito',sans-serif;
+  font-weight: bold;
+  color: #7c8b8e;
+  background-color: white;
+  border: #eaedef solid 2px;
+  position: absolute;
+  top: 205px;
+  left: 137px;
+}
+
+.python-btn {
+  width: 75px;
+  height: 35px;
+  font-size: 14px;
+  border-radius: 50px;
+  font-family: 'Nunito',sans-serif;
+  font-weight: bold;
+  color: #f092b0;
+  background-color: white;
+  border: #eaedef solid 2px;
+  position: absolute;
+  top: 205px;
+  left: 30px;
+}
+
+.interpython-btn {
+  width: 110px;
+  height: 35px;
+  font-size: 14px;
+  border-radius: 50px;
+  font-family: 'Nunito',sans-serif;
+  font-weight: bold;
+  color: #7c8b8e;
+  background-color: white;
+  border: #eaedef solid 2px;
+  position: absolute;
+  top: 205px;
+  left: 112px;
+}
+
+.play {
+  float: right;
+  padding-top: 100px;
+  padding-right: 7px;
+}
+
+.star {
+  float: right;
+  padding-right: 30px;
+  padding-top: 100px;
+}
+
 #profile {
   border-radius: 60px;
   padding: 3px;
@@ -112,6 +219,7 @@ h2 {
   float: right;
   margin: 5px;
 }
+
 
 #score {
   float: right;
@@ -125,6 +233,8 @@ h2 {
   transform: translateY(-105%);
   color: #d4d9dd;
   padding-right: 20px;
+  margin-bottom: -80px;
+
 }
 
 #bell {
@@ -132,6 +242,7 @@ h2 {
   transform: translateY(-70%);
   padding-right: 15px;
   padding-left: 10px;
+
 }
 
 #arrow {
